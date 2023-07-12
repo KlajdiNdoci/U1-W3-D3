@@ -4,15 +4,65 @@ body {
 
 header {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(255, 0, 0);
   padding-top: 10px;
   padding-bottom: 20px;
+  color: white;
+}
+
+h2 {
+}
+
+header input {
+  padding-left: 10px;
+  padding-right: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+}
+
+header button {
+  padding-inline: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: gray;
+  position: absolute;
+  border: 0;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li:nth-child(odd) {
+  background-color: darkgray;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+li:nth-child(even) {
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li button {
+  float: right;
+  border: 0;
+  padding: auto;
+  background-color: red;
+  color: white;
 }
 
 .deleteButton {
   text-align: right;
+}
+
+.check {
+  text-decoration: line-through;
 }
